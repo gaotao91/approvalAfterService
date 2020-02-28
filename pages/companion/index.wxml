@@ -1,1 +1,22 @@
-<text>批后服务指南</text>
+<view class="container">
+  <view class="header">
+    <epsoide-cmp class="epsoide" index="{{classic.index}}" />
+    <img-btn-cmp class="share-btn" open-type="share">
+          <image class="share" slot="img" src="/images/icon/share.png" />
+    </img-btn-cmp>
+  </view>
+  <view class="swiper-container">
+   <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imageSrc}}" wx:key="*this">
+              <swiper-item>
+                <image src="{{item}}"/>
+              </swiper-item>
+      </block>
+    </swiper>
+  </view>
+ 
+  <view class="button-container">
+
+  </view>
+</view>

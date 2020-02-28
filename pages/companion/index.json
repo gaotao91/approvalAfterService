@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "epsoide-cmp": "/components/epsoide/epsoide",
+    "img-btn-cmp": "/components/image-button/index"
+  }
 }

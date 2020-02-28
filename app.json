@@ -2,7 +2,8 @@
   "pages": [
     "pages/companion/index",
     "pages/businessHanding/index",
-    "pages/myBusiness/index"
+    "pages/myBusiness/index",
+    "pages/detailPage/yanShouZhiNan/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

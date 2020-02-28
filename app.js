@@ -1,5 +1,9 @@
 //app.js
 App({
-  onLaunch: function () {}
+  onLaunch: function () {
+    wx.cloud.init({
+      traceUser: true,
+    })
+  }
     
 })
