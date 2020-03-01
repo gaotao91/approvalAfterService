@@ -1,0 +1,4 @@
+/* pages/detailPage/yanXianZhiNan/index.wxss */
+image{
+  width: 100%;
+}

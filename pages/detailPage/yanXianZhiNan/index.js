@@ -1,4 +1,4 @@
-// pages/detailPage/yanShouZhiNan/index.js
+// pages/detailPage/yanXianZhiNan/index.js
 Page({
 
   /**
@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: '竣工规划核实指南',
+      title: '验线及±0.00复验线指南',
     })
   },
 

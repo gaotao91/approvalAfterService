@@ -1,0 +1,4 @@
+/* pages/detailPage/gongShiPaiZhiNan/index.wxss */
+image{
+  width: 100%;
+}

@@ -1,2 +1,1 @@
-<!--pages/detailPage/yanShouZhiNan/index.wxml-->
-<text>pages/detailPage/yanShouZhiNan/index.wxml</text>
+<image src="/images/zhiNan/yanshou.jpg" mode="widthFix" />

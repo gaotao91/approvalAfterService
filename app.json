@@ -3,7 +3,9 @@
     "pages/companion/index",
     "pages/businessHanding/index",
     "pages/myBusiness/index",
-    "pages/detailPage/yanShouZhiNan/index"
+    "pages/detailPage/yanShouZhiNan/index",
+    "ceshi/index",
+    "pages/detailPage/yanXianZhiNan/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,1 +1,5 @@
 /* pages/detailPage/yanShouZhiNan/index.wxss */
+image{
+  width: 100%;
+  
+}
