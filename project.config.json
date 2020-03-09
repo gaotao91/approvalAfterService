@@ -46,9 +46,9 @@
 			"current": -1,
 			"list": [
 				{
-					"id": 0,
-					"name": "ceshi/index",
-					"pathName": "ceshi/index",
+					"id": -1,
+					"name": "pages/detailPage/yanShouZhiNan/index",
+					"pathName": "pages/detailPage/yanShouZhiNan/index",
 					"query": "",
 					"scene": null
 				}
