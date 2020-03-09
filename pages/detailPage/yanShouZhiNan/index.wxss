@@ -25,9 +25,9 @@
 .content-container{
   display: flex;
   flex-direction: column;
-  background-color: rgba(16, 212, 59, 0.911);
+  background-color: white;
   margin: 20rpx;
-  height: 500rpx;
+  /* height: 500rpx; */
   border-radius: 20rpx;
 }
 
@@ -54,7 +54,26 @@
   line-height: 50rpx;
   font-family: "SimSun";
   margin-left: 50rpx;
-  margin-right: 40rpx;
-  background-color: rgb(216, 23, 23);
+  /* margin-right: 40rpx; */
+  /* background-color: rgb(216, 23, 23); */
 
+}
+
+.image-container{
+  display: flex;
+  flex-direction: row;
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+  background-color: rgb(219, 14, 14);
+  /* height: 100rpx; */
+}
+
+.image1{
+  width: 45%;
+  height: 500rpx;
+  background-color: rgb(22, 238, 40);
+}
+.image2{
+  width: 55%;
+  height: 500rpx;
 }
