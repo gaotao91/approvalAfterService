@@ -55,7 +55,7 @@
   font-family: "SimSun";
   margin-left: 50rpx;
   /* margin-right: 40rpx; */
-  background-color: rgb(216, 23, 23);
+  /* background-color: rgb(216, 23, 23); */
 
 }
 
