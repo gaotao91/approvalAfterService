@@ -17,52 +17,38 @@ Page({
     })
   },
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  onOpenImage1:function (event){
+    this.openImage('cloud://gaotao-60d0g.6761-gaotao-60d0g-1301399397/shenQingBiao.docx')
   },
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  onOpenImage2:function(event){
+    this.openImage('cloud://gaotao-60d0g.6761-gaotao-60d0g-1301399397/zhaoPian.docx')
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  openImage:function(src){
+      if(src==null){
+      return
+    }
+    else{
+      wx.showLoading({
+          title: '加载中',
+        })
+      wx.cloud.downloadFile({
+        fileID: src,
+        success: res => {
+          wx.openDocument({
+            filePath: res.tempFilePath,
+            success: function (res) {
+              wx.hideLoading()
+            }
+          })
+          console.log(res.tempFilePath)
+        },
+        fail: err => {
+          // handle error
+        }
+      })
+      
+    }
   }
 })

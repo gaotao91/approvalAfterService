@@ -1,1 +1,32 @@
-<image src="/images/zhiNan/yanxian.jpg" mode="widthFix" />
+<view class="container">
+  <view class="content-container">
+    <text class="header">验线申报材料</text>
+    <text class="content"> 一、建设工程、用地放线通知书，复印件一份。
+    二、日照市建设工程批后管理跟踪表（相关材料已填好）。
+    三、建设工程确认书，原件3份。
+    </text>
+  </view>
+  <view class="content-container">
+    <text class="header">±0.00复验线申报材料</text>
+    <text class="content">一、建设工程±0.00测量报告单（建设工程基础施工已完成，正在±0.00时报送），原件两份。</text>
+  </view>
+  <view class="content-container">
+    <text class="header">温馨提示</text>
+    <text class="content">    一、申请主体应为《建设工程规划许可证》载明的建设单位。
+    二、建设单位申请规划验线时，应当符合下列要求：
+    </text>
+    <text class="detail">1、已在施工现场醒目位置设置建设工程规划公示牌；
+      2、建设工程基槽开挖完成；
+      3、放线桩位完整，通视良好。
+    </text>
+    <text class="content">三、验线现场挂线标准，如下图：
+    </text>
+    <image src="/images/zhiNan/yanxian.jpg" class="yanXimage"/>
+    <text class="content">四、±0.00复验线应在建设工程基础施工完成，正在±0.00时进行。
+    五、咨询服务
+    </text>
+    <text class="detail" space="ensp">        日照市自然资源和规划局批后服务科
+地  点：日照市济南路269号日照市自然资源和规划局946
+电  话：7979163</text>
+  </view>
+</view>

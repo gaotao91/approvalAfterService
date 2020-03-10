@@ -24,8 +24,8 @@
     <text class="content">四、东港分局和开发区、山海天、高新区规划服务中心审批的建设项目，建设单位在申请竣工规划核实时需一并提报《日照市建设工程批后管理跟踪表》。
     五、日照市建设工程竣工规划核实申请表和建设工程竣工外立面照片样板如下：</text>
     <view class="image-container">
-      <image class="image1"/>
-      <image class="image2"/>
+      <image class="image1" src="/images/zhiNan/shenqingbiao.jpg" mode="widthFix" bindtap="onOpenImage1" />
+      <image class="image2" src="/images/zhiNan/wailimian.jpg" mode="widthFix" bindtap="onOpenImage2"/>
     </view>
     <text class="detail" selectable="true">相关材料可到自然资源和规划局网站下载：
     http://zrzygh.rizhao.gov.cn/art/2018/10/15/
