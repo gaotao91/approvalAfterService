@@ -41,5 +41,6 @@
 
 }
 .yanXimage{
-  margin: 10rpx;
+  margin: auto;
+  
 }

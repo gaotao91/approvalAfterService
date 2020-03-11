@@ -1,9 +1,14 @@
 <view class="container">
   <view class="header">
     <epsoide-cmp class="epsoide" index="{{classic.index}}" />
-    <img-btn-cmp class="share-btn" open-type="share">
-          <image class="share" slot="img" src="/images/icon/share.png" />
-    </img-btn-cmp>
+    <view class="profile-container">
+      <view class="profile">
+        <open-data type="userAvatarUrl"></open-data>
+      </view> 
+      <img-btn-cmp class="share-btn" open-type="share">
+            <image class="share" slot="img" src="/images/icon/share.png" />
+      </img-btn-cmp>
+    </view>
   </view>
   <view class="swiper-container">
    <swiper indicator-dots="true"

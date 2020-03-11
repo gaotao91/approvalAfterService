@@ -1,4 +1,6 @@
-// pages/detailPage/yanShouZhiNan/index.js
+import { CloudDownload } from '../../../utils/cloudDownload.js'
+let cloudDownload = new CloudDownload()
+
 Page({
 
   /**
@@ -18,37 +20,12 @@ Page({
   },
 
   onOpenImage1:function (event){
-    this.openImage('cloud://gaotao-60d0g.6761-gaotao-60d0g-1301399397/shenQingBiao.docx')
+    cloudDownload.openImage('cloud://gaotao-60d0g.6761-gaotao-60d0g-1301399397/shenQingBiao.docx')
   },
 
   onOpenImage2:function(event){
-    this.openImage('cloud://gaotao-60d0g.6761-gaotao-60d0g-1301399397/zhaoPian.docx')
+    cloudDownload.openImage('cloud://gaotao-60d0g.6761-gaotao-60d0g-1301399397/zhaoPian.docx')
   },
 
-  openImage:function(src){
-      if(src==null){
-      return
-    }
-    else{
-      wx.showLoading({
-          title: '加载中',
-        })
-      wx.cloud.downloadFile({
-        fileID: src,
-        success: res => {
-          wx.openDocument({
-            filePath: res.tempFilePath,
-            success: function (res) {
-              wx.hideLoading()
-            }
-          })
-          console.log(res.tempFilePath)
-        },
-        fail: err => {
-          // handle error
-        }
-      })
-      
-    }
-  }
+  
 })

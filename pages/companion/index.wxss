@@ -24,9 +24,26 @@ page{
    margin-top:14rpx;
 }
 
+.profile-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right:30rpx;
+  /* background-color: #d41717 */
+}
+
+.profile{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right:50rpx;
+}
+
 .share-btn{
   margin-top:28rpx;
-  margin-right:50rpx;
+  /* margin-right:50rpx; */
 }
 
 .share{

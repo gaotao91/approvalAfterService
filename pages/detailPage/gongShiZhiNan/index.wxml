@@ -1,1 +1,30 @@
-<image src="/images/zhiNan/gongshi.jpg" mode="widthFix" />
+<view class="container">
+  <view class="content-container">
+    <text class="header">公示牌小样</text>
+    <text class="content">一、公示牌小样模板(点击图片可查看详细要求)：</text>
+    <image src="/images/zhiNan/gongshi.jpg" bindtap="onOpenImage"/>
+    <text class="content">二、公示牌应包括以下内容：</text>
+    <text class="detail">1、建设工程规划许可证编号、建设单位、工程名称、工程位置；
+    2、批准的建设工程建设规模、建筑层数、建筑高度、容积率、建筑密度、绿道率、停车泊位及配套设施等主要技术指标；
+    3、批准的规划平面定位图；
+    4、批准的单体工程主要立面效果图；
+    5、公示期限；
+    6、批准部门及监督电话。</text>
+  </view>
+  <view class="content-container">
+    <text class="header">温馨提示</text>
+    <text class="content">一、建设工程开工前，应将公示牌小样（A3，彩印）及电子版（≤10M，刻盘）报审，审核小样内容是否与一下材料一致：</text>
+    <text class="detail">1、建设用地规划条件（规划用地除外）；
+    2、批准盖章的规划总片面和平面定位图；
+    3、建设工程规划许可证。</text>
+    <text class="content">二、公示牌应该设置在施工现场的醒目位置，宽度不得小于3米，高度不得低于2米，底部局里地面不得低于1.5米。并拍摄7寸照片在验线钱提报，照片模板如下：</text>
+    <image src="/images/zhiNan/xianchanggongshi.jpg"/>
+    <text class="content">四、建设项目进行规划变更、经批准后应同步变更公示牌。
+    五、更多公示牌小样模板请见自然资源和规划局网站：</text>
+    <text class="detail" selectable="true">http://zrzygh.rizhao.gov.cn/col/col92233/index.html</text>
+    <text class="content">六、咨询服务</text>
+    <text class="detail" space="ensp">        日照市自然资源和规划局批后服务科
+地  点：日照市济南路269号日照市自然资源和规划局946
+电  话：7979163</text>
+  </view>
+</view>

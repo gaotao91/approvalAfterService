@@ -5,7 +5,8 @@
     "pages/myBusiness/index",
     "pages/detailPage/yanShouZhiNan/index",
     "ceshi/index",
-    "pages/detailPage/yanXianZhiNan/index"
+    "pages/detailPage/yanXianZhiNan/index",
+    "pages/detailPage/gongShiZhiNan/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
