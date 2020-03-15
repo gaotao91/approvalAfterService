@@ -24,8 +24,24 @@
     <text>—— 批后服务指南 ——</text>
   </view>
   <view class="button-container">
-    <button class="btn-zhiNan" bindtap="onYanShou">竣工规划核实报审指南</button>
+    <!-- <button class="btn-zhiNan" bindtap="onYanShou">竣工规划核实报审指南</button>
     <button class="btn-zhiNan" bindtap="onYanXian">验线及±0.00复验线报审指南</button>
-    <button class="btn-zhiNan" bindtap="onGongShi">公示牌设置报审指南</button>
+    <button class="btn-zhiNan" bindtap="onGongShi">公示牌设置报审指南</button> -->
+    <mp-cells ext-class="my-cells">
+      <mp-cell link hover url="/pages/detailPage/yanShouZhiNan/index" value="竣工规划核实报审指南">
+        <image slot="icon" src="images/4584.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </mp-cell>
+      <mp-cell link hover url="/pages/detailPage/yanXianZhiNan/index" value="验线及±0复验线报审指南">
+        <image slot="icon" src="images/4584.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </mp-cell>
+      <mp-cell link hover url="/pages/detailPage/gongShiZhiNan/index" value="公示牌设置报审指南">
+        <image slot="icon" src="images/4584.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+      </mp-cell>
+    </mp-cells>
+    <view class="footer">
+      <view class="footer-header">批后服务首页</view>
+      <view class="footer-content">Copyright © 2019-2020 pihoufuwu.com</view>
+    </view>
   </view>
+  
 </view>

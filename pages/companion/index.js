@@ -18,21 +18,5 @@ Page({
   onLoad: function (options) {
 
   },
-  onYanShou:function(event){
-    wx.navigateTo({
-      url: '/pages/detailPage/yanShouZhiNan/index',
-    })
-  },
-  onYanXian:function(event){
-    wx.navigateTo({
-      url: '/pages/detailPage/yanXianZhiNan/index',
-    })
-  },
-  onGongShi:function(event){
-    wx.navigateTo({
-      url: '/pages/detailPage/gongShiZhiNan/index',
-    })
-  }
- 
-
+  
 })

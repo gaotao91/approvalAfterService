@@ -5,6 +5,7 @@ page{
   display: flex;
   flex-direction: column;
   height: 100%;
+  
   /* background-color: #aee90a */
 }
 
@@ -69,7 +70,7 @@ image{
   align-items: center;
   justify-content: center;
   border-top :1px solid #f5f5f5;
-  border-bottom: 1px solid #f5f5f5;
+  border-bottom: 1px solid #f5f5f5;  
 }
 
 .title-container text{
@@ -79,12 +80,38 @@ image{
   display: flex;
   flex-direction: column;
   flex-grow: 100;
-  justify-content : space-evenly;
-  /* background-color: #d41d1d; */
-  
+  align-content: center;
+  /* justify-content: center; */
+  background-color: rgba(199, 194, 194, 0.411);
+
 }
-.btn-zhiNan{
+
+.my-cells{
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+
+.footer{
+  position: absolute;
+  bottom: 20rpx;
+  /* background-color: rgba(104, 23, 23, 0.336); */
+  width: 100%;
+}
+
+.footer-header{
+  text-align: center;
+  color:#7DE5FF;
+}
+
+.footer-content{
+  text-align: center;
+  font-weight: lighter;
+}
+/* .btn-zhiNan{
   margin-left: 40rpx;
   margin-right: 40rpx;
   height: 100rpx;
-}
+} */

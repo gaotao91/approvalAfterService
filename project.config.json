@@ -44,15 +44,7 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "pages/detailPage/gongShiZhiNan/index",
-					"pathName": "pages/detailPage/gongShiZhiNan/index",
-					"query": "",
-					"scene": null
-				}
-			]
+			"list": []
 		}
 	}
 }
