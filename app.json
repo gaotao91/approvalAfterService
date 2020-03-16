@@ -21,20 +21,20 @@
     "list": [
       {
         "pagePath": "pages/companion/index",
-        "selectedIconPath": "/images/tab/classic@highlight.png",
-        "iconPath": "/images/tab/classic.png",
+        "selectedIconPath": "/images/tab/shouye1.png",
+        "iconPath": "/images/tab/shouye.png",
         "text": "业务咨询"
       },
       {
         "pagePath": "pages/businessHanding/index",
-        "selectedIconPath": "/images/tab/book@highlight.png",
-        "iconPath": "/images/tab/book.png",
+        "selectedIconPath": "/images/tab/gongneng1.png",
+        "iconPath": "/images/tab/gongneng.png",
         "text": "业务办理"
       },
       {
         "pagePath": "pages/myBusiness/index",
-        "selectedIconPath": "/images/tab/my@highlight.png",
-        "iconPath": "/images/tab/my.png",
+        "selectedIconPath": "/images/tab/wode1.png",
+        "iconPath": "/images/tab/wode.png",
         "text": "我的业务"
       }
     ]
